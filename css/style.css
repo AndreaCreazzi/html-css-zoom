@@ -98,12 +98,12 @@ footer{
 
 .col-middle{
     padding-top: 2px;
-    flex-basis: 55%;
+    flex-basis: 50%;
     color: white;
 }
 
 .col-right{
-    flex-basis: 20%;
+    flex-basis: 25%;
     color: red;
     text-align: end;
     line-height: 60px;
