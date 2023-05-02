@@ -83,3 +83,71 @@ footer{
     top: 83%;
     opacity: 0.8;
 }
+
+/*footer*/
+.tool-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.col-left{
+    flex-basis: 25%;
+    color: white;
+}
+
+.col-middle{
+    padding-top: 2px;
+    flex-basis: 55%;
+    color: white;
+}
+
+.col-right{
+    flex-basis: 20%;
+    color: red;
+    text-align: end;
+    line-height: 60px;
+}
+
+.tool{
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.fa-angle-up{
+    font-size: 10px;
+    padding-left: 20px;
+}
+
+.tool-text{
+    font-size: x-small;
+    vertical-align: middle;
+}
+
+.fa-video{
+    padding-left: 7px;
+}
+
+.fa-user-group{
+    padding-left: 25px;
+}
+
+.fa-share-from-square{
+    color: green;
+    padding-left: 15px;
+}
+
+.fa-cubes{
+    padding-left: 19px;
+}
+
+.end-text{
+    background-color: #4a4a4a;
+    display: inline-block;
+    padding-top: 9px;
+    padding-left: 20px;
+    padding-right: 5px;
+    cursor: pointer;
+}
