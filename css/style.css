@@ -33,14 +33,13 @@ footer{
 }
 
 /* #header*/
-.row{
+.head-row{
     display: flex;
     color: white;
     justify-content: end;
-    
 }
 
-.row li{
+.head-row li{
     text-decoration: none;
     list-style-type: none;
     background-color:#4a4a4a ;
@@ -52,10 +51,35 @@ footer{
     font-size: smaller;
 }
 
-.row a{
+.head-row a{
     color: white;   
 }
 
 .fa-table-cells{
     padding-right: 3px;
+}
+
+/* #main*/
+.main-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card{
+    flex-basis: calc(100% / 9);
+    position: relative;
+}
+
+.card-user{
+    position: absolute;
+    color: white;
+    font-size: x-small;
+    background-color:#666f7b;
+    padding: 2px 3px;
+    top: 83%;
+    opacity: 0.8;
 }
