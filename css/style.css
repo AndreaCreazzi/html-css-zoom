@@ -4,3 +4,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*generics*/
+body{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: black;
+    height: 70px;
+}
+
+main{
+    height: calc(100vh - 140px);
+    background-color: black;
+    overflow: auto;
+}
+
+footer{
+    background-color: #222222;
+    height: 70px;
+}
+
+/*utility*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* #header*/
+.row{
+    display: flex;
+    color: white;
+    justify-content: end;
+    
+}
+
+.row li{
+    text-decoration: none;
+    list-style-type: none;
+    background-color:#4a4a4a ;
+    margin-top: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    padding: 4px 5px;
+    border-radius: 5px;
+    font-size: smaller;
+}
+
+.row a{
+    color: white;   
+}
+
+.fa-table-cells{
+    padding-right: 3px;
+}
